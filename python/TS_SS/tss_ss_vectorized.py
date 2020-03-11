@@ -1,6 +1,10 @@
 import math 
 import torch
 
+
+# todo (joao): create softcosine and spread it in others
+
+
 def cos_sim(v):
     v_inner = inner_product(v)
     v_size = vec_size(v)
